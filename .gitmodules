@@ -1,0 +1,3 @@
+[submodule "third-party/openbar"]
+	path = third-party/openbar
+	url = https://github.com/openbar/openbar
