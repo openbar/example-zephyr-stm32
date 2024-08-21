@@ -1,0 +1,7 @@
+[manifest]
+path = configs
+file = west.yml
+
+[zephyr]
+base = third-party/zephyr
+

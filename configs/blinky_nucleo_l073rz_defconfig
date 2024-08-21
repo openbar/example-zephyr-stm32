@@ -1,0 +1,4 @@
+include ${OB_DEFCONFIG_DIR}/include/base.inc
+
+APP   := third-party/zephyr/samples/basic/blinky
+BOARD := nucleo_l073rz
