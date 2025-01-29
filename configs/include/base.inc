@@ -11,10 +11,6 @@ OB_MANUAL_TARGETS += clean
 clean:
 	rm -rf ${BUILD_DIR}
 
-OB_MANUAL_TARGETS += mrproper
-mrproper:
-	rm -rf ${OB_BUILD_DIR}
-
 OB_MANUAL_TARGETS += update
 update:
 	west update
