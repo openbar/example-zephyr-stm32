@@ -15,6 +15,9 @@ OB_MANUAL_TARGETS += update
 update:
 	west update
 
+# Export the BOARD variable to environment
+override OB_EXPORT += BOARD
+
 # Export OB_CONTAINER_HOME during container build
 OB_CONTAINER_BUILD_EXTRA_ARGS = --build-arg=OB_CONTAINER_HOME=${OB_CONTAINER_HOME}
 
